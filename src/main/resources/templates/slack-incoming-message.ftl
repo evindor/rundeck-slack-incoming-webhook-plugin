@@ -30,6 +30,16 @@
                "short":true
             },
             {
+               "title":"Target",
+               "value":"${executionData.context.option.target}",
+               "short":true
+            },
+            {
+               "title":"Version",
+               "value":"${executionData.context.option.version}",
+               "short":true
+            },
+            {
                "title":"Status",
                "value":"${state}",
                "short":true
