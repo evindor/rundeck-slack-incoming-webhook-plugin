@@ -29,16 +29,20 @@
                "value":"${executionData.project}",
                "short":true
             },
+<#if executionData.context.option.target??>
             {
                "title":"Target",
                "value":"${executionData.context.option.target}",
                "short":true
             },
+</#if>
+<#if executionData.context.option.version??>
             {
                "title":"Version",
                "value":"${executionData.context.option.version}",
                "short":true
             },
+</#if>
             {
                "title":"Status",
                "value":"${state}",
